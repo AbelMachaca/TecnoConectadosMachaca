@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TecnoConectados - todos los modelos</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="contenedor">
+	<header id="header">
+		<div class="encabezado__box--white">
+			<p>Pedidos al 1512345678</p>
+		</div>
+		<a href="../index.html">
+		        <img src="../img/logo.png" alt="Logo de TecnoConectados">
+		</a>
+		<nav id="mainNav">
+			<ul>
+				<li>
+					<a href="productos.html">Productos</a>
+				</li>
+				<li>
+					<a href="promociones.html">Promociones</a>
+				</li>
+				<li>
+					<a href="nosotros.html">Nosotros</a>
+				</li>
+				<li>
+					<a href="contacto.html">Contacto</a>
+				</li>
+			</ul>
+		</nav>
+		    <img src="../img/header.jpg" alt="diseño de celular innovador" class="encabezado__img--fluid">
+		    <h1 class="text-center novedades__titulo--xll">Contacto</h1>
+	</header>
+	<main id="productos">
+	<!-- inicio de formulario -->
+		<section class="bg-light modelos__articulo">
+			<h2 class="text-center novedades__titulo--xl">Contactanos</h2>
+			<form action="envio.php" method="post">
+				<fieldset>
+					<legend class="text--xx">Info de contacto</legend>
+					<label class="text--x" for="nombre">Nombre</label>
+					<br>
+					<input type="text" name="nombre" id="nombre" placeholder="Maria Laura">
+					<br>
+					<label class="text--x" for="email">E-mail</label>
+					<br>
+					<input type="email" name="email" id="email" placeholder="mail@algo.com">
+				</fieldset>
+				<fieldset>
+					<legend class="text--xx">Info de venta</legend>
+					<label class="text--x" for="celulares">Celulares</label>
+					<input type="checkbox" value="celulares" id="celulares">
+					<br>
+					<label class="text--x" for="accesorios">Accesorios</label>
+					<input type="checkbox" value="accesorio" id="accesorios">
+				</fieldset>
+				<fieldset>
+					<legend class="text--xx">Entrega</legend>
+					<label class="text--x" for="local">Retira en el local</label>
+					<input type="radio" id="local" value="local" name="entrega">
+					<br>
+					<label class="text--x" for="envio">Envío a domicilio</label>
+					<input type="radio" id="envio" name="entrega" value="envio">
+					<br>
+					<label class="text--x" for="localidad">Localidad</label>
+					<select name="localidad" id="localidad">
+						<option value="caba">CABA</option>
+						<option value="bsas">Buenos Aires</option>
+						<option value="interior">Interior del país...</option>
+					</select>
+				</fieldset>
+				<label class="novedades__titulo--x" for="mensaje">Mensaje</label>
+				<br>
+				<textarea cols="70" rows="13"></textarea>
+				<br>
+				<input type="submit" value="Enviar">
+				<input type="reset" value="Cancelar">
+			</form>
+		</section>
+		<!-- fin del formulario -->
+		<section class="text-center">
+		<!-- inicia mapa -->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.740513447972!2d-58.521740984768044!3d-34.68649798043811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc8daa61ddc9b%3A0x6204ba40d50f0db7!2sCallao%2069%2C%20B1766GCA%20La%20Tablada%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1652925472072!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		<!-- fin de mapa -->
+		</section>
+	</main>
+	<footer class="pie" id="footer">
+		<h4 class="pie__titulo--md">Seguinos a TecnoConectados en nuestras  redes</h4>
+		<a href="https://www.facebook.com/user" target="_blank">
+			<img src="../img/facebook.png" alt="seguinos en facebook" class="pie__icon--sm">
+		</a>
+		<a href="https://www.twitter.com/user">
+			<img src="../img/twitter.png" alt="seguinos en twitter" class="pie__icon--sm">
+		</a>
+	</footer>
+</body>
+</html>
