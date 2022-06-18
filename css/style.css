@@ -65,6 +65,12 @@ nav{
     		font-size: 2.2rem;
     		color: #F88E38;
     		font-family: 'Roboto', sans-serif;
+    		    /* Animacion */
+    			background-image: linear-gradient(currentColor, currentColor);
+   				background-position: 0% 100%;
+    			background-repeat: no-repeat;
+    			background-size: 0% 2px;
+    			transition: background-size .2s;
     	}
 
     	/* hover */
@@ -72,6 +78,8 @@ nav{
     	nav ul li a:hover{
     		font-weight: 600;
     		color: black;
+    		/*animacion*/
+    		background-size: 100% 2px;
     	}
 
 body{
@@ -334,3 +342,4 @@ body{
 		}
 
 }
+
