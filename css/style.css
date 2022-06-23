@@ -32,7 +32,7 @@ h1{
 }
 
 h2{
-	color: #1F1D5D;
+	color: #0D2DED;
 	font-size: 3rem;
 }
 
@@ -111,6 +111,19 @@ body{
 .bg-orchid{
 	background-color: orchid;
 }
+
+.bg-skyblue{
+	background-color: skyblue;
+}
+
+.bg-blue{
+	background-color: #5F5FFF;
+}
+.text-blue{
+	color: skyblue;
+	font-size: 2.2rem
+}
+
 
 .btnXl{
 	width:50%;
@@ -251,5 +264,7 @@ body{
 		font-family: Roboto, sans-serif;
 	}
 
-/* Inicio Grid */
+
+
+
 
