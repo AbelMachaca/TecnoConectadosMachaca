@@ -1,0 +1,39 @@
+/* inicia nav */
+nav{
+	background-color: $mainColor;
+	position: sticky;
+	top: 0;
+	width: 100%;
+
+	ul{
+		display: inline;
+	
+    	li{
+    	list-style: none;
+    	display: inline-block;
+    	margin: 0 20px;
+    
+    		 a{
+    		list-style: none;
+    		text-decoration: none;
+    		font-size: $fontMd;
+    		color: $naranja;
+    		font-family: 'Roboto', sans-serif;
+    		    /* Animacion */
+    			background-image: linear-gradient(currentColor, currentColor);
+   				background-position: 0% 100%;
+    			background-repeat: no-repeat;
+    			background-size: 0% 2px;
+    			transition: background-size .2s;
+    			&:hover{
+    				font-weight: 600;
+    				color: $black;
+    				/*animacion*/
+    				background-size: 100% 2px;
+    			}
+    		}
+    	}
+    }
+}
+/*ends nav */
+

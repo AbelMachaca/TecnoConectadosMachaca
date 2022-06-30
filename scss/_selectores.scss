@@ -1,0 +1,171 @@
+.text-center{
+	text-align: center;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.bg-light{
+	background-color: #D1C7C7;
+}
+
+.bg-orchid{
+	background-color: orchid;
+}
+
+.bg-skyblue{
+	background-color: skyblue;
+}
+
+.bg-blue{
+	background-color: #5F5FFF;
+}
+.text-blue{
+	color: skyblue;
+	font-size: 2.2rem
+}
+
+
+.btnXl{
+	width:50%;
+	height: 30px;
+	background-color: #FFE87E;
+	color: #CB8367;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-left: 50px;
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* inicio box model - width - height - margin - padding - border */
+/* inicio box-sizing */
+.modelos__articulo{
+	width: 90%;
+	height: auto;
+	padding: 50px;
+	margin: 50px auto;
+	box-sizing: border-box;
+}
+
+/* clases bem */
+.encabezado__box--white{
+	background-color: #F3F2F2;
+	text-align: center;
+	padding: 5px 0;
+}
+
+.encabezado__img--fluid{
+	width: 100%;
+}
+
+.novedades__titulo--xll{
+	font-size: 4rem;
+}
+
+.novedades__titulo--xl{
+	font-size: 3rem;
+}
+
+.text--xx{
+	font-size: 2.2rem;
+}
+
+.text--x{
+	font-size: 1.7rem;
+	font-family: serif;
+}
+
+.pie{
+	padding: 10px 0;
+	text-align: center;
+}
+
+.pie__icon--sm{
+	width: 30px;
+}
+
+.pie__titulo--md{
+	display: inline;
+	font-size: 2rem;
+}
+
+.secondNav{
+	background-color: white;
+	color:#676565 ;
+	padding: 10px ;
+	font-size: 1.3rem;
+	line-height: 1.6em;
+}
+
+	
+/* fin selectores de clase */
+
+/* inicio selector de id */
+/* productos en promoción*/
+#productos h1,
+#productos h2{
+	text-transform: uppercase;
+	font-size: 3rem;
+	text-align: center;
+	padding: 20px 0;
+	background-color: rgba(255, 255, 255, .7);
+	font-family: Roboto, sans-serif;
+	margin: 20px 0;
+}
+
+#productos .galeria{
+	margin: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+	#productos .galeria figure{
+		text-align: center;
+	}
+
+		#productos .galeria figure img{
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+		}
+
+		#productos .galeria figure figcaption{
+			font-size: 2.5rem;
+			color: black;
+			padding: 10px 0;
+			background-color: white;
+		}
+
+		#productos .galeria p.price{
+			color: #676565;
+			padding-bottom: 10px;
+			background-color: white;
+		}
+
+#productos .destacados article{
+	background-color: #5F5FFF ;
+	display: flex;
+
+}
+
+	#productos .destacados article p{
+		font-size: 2rem;
+		line-height: 2.4rem;
+		padding: 50px;
+		margin: 20px auto;
+		color: white;
+	}
+
+	#productos .destacados article h3{
+		color: white;
+		font-size: 3rem;
+		padding-left: 50px;
+		font-family: Roboto, sans-serif;
+	}
