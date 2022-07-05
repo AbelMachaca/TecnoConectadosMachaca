@@ -41,8 +41,9 @@ h4 {
 
 /* ends commons */
 /* inicia nav */
+/* aplicando maps, map-get */
 nav {
-  background-color: rgba(63, 242, 240, 0.5);
+  background-color: #7BE1FF;
   position: sticky;
   top: 0;
   width: 100%; }
@@ -96,19 +97,23 @@ nav {
   color: skyblue;
   font-size: 2.2rem; }
 
-.btnXl {
+/* aplicando mixins */
+.btnXl, .btn-rounded {
   width: 50%;
   height: 30px;
   background-color: #FFE87E;
   color: #CB8367;
   text-align: center;
   text-decoration: none;
-  border-radius: 5px;
   margin-left: 50px;
   font-size: 2rem;
   display: flex;
   justify-content: center;
   align-items: center; }
+
+/* aplicando extend */
+.btn-rounded {
+  border-radius: 5px; }
 
 /* inicio box model - width - height - margin - padding - border */
 /* inicio box-sizing */

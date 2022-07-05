@@ -11,7 +11,7 @@
 }
 
 .bg-light{
-	background-color: #D1C7C7;
+	background-color: $light;
 }
 
 .bg-orchid{
@@ -30,7 +30,7 @@
 	font-size: 2.2rem
 }
 
-
+/* aplicando mixins */
 .btnXl{
 	width:50%;
 	height: 30px;
@@ -38,12 +38,15 @@
 	color: #CB8367;
 	text-align: center;
 	text-decoration: none;
-	border-radius: 5px;
 	margin-left: 50px;
 	font-size: 2rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@include flexbox(center, center);
+}
+
+/* aplicando extend */
+.btn-rounded{
+	@extend .btnXl;
+	border-radius: 5px;
 }
 
 /* inicio box model - width - height - margin - padding - border */

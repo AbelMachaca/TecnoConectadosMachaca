@@ -1,6 +1,7 @@
 /* inicia nav */
+/* aplicando maps, map-get */
 nav{
-	background-color: $mainColor;
+	background-color: map-get($mapaDeColores, $mainColor);
 	position: sticky;
 	top: 0;
 	width: 100%;
@@ -17,7 +18,7 @@ nav{
     		list-style: none;
     		text-decoration: none;
     		font-size: $fontMd;
-    		color: $naranja;
+    		color: map-get($mapaDeColores, $naranja);
     		font-family: 'Roboto', sans-serif;
     		    /* Animacion */
     			background-image: linear-gradient(currentColor, currentColor);
@@ -27,7 +28,7 @@ nav{
     			transition: background-size .2s;
     			&:hover{
     				font-weight: 600;
-    				color: $black;
+    				color: map-get($mapaDeColores, $negro);
     				/*animacion*/
     				background-size: 100% 2px;
     			}

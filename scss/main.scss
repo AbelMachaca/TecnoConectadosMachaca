@@ -1,6 +1,7 @@
 //imports
-@import "_vars";
-@import "_fonts";
-@import "_commons";
-@import "_navBar";
-@import "_selectores";
+@import "base/vars";
+@import "base/mixins";
+@import "partials/fonts";
+@import "partials/commons";
+@import "partials/navBar";
+@import "partials/selectores";
