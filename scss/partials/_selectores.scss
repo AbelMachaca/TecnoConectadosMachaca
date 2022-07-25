@@ -49,6 +49,17 @@
 	border-radius: 5px;
 }
 
+.btn{
+	padding: 5px;
+    border-radius: 15px;
+    border: none;
+    background: $keyColor;
+    color: $negro;
+	text-align: center;
+	text-decoration: none;
+	font-size: 2rem;
+	@include flexbox(center, center);
+}
 /* inicio box model - width - height - margin - padding - border */
 /* inicio box-sizing */
 .modelos__articulo{

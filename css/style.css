@@ -9,7 +9,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  background-image: url(../img/fondo.png);
+  background-image: url(../img/fondo.webp);
   background-attachment: fixed; }
 
 h1,
@@ -115,6 +115,19 @@ nav {
 .btn-rounded {
   border-radius: 5px; }
 
+.btn {
+  padding: 5px;
+  border-radius: 15px;
+  border: none;
+  background: #87CEEB;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 /* inicio box model - width - height - margin - padding - border */
 /* inicio box-sizing */
 .modelos__articulo {
@@ -218,14 +231,14 @@ nav {
   font-family: Roboto, sans-serif; }
 
 #error404 {
-  background: #081c22;
+  background: #FFC0E2;
   margin: 0;
   padding: 0;
   height: 100vh;
   font-family: 'Open Sans', sans-serif; }
 
 #error404 img {
-  width: 50%; }
+  width: 40%; }
 
 .container {
   height: 100vh;
@@ -236,16 +249,27 @@ nav {
   justify-content: center; }
 
 #error404 h1 {
-  color: #e9eef5;
+  color: #FF49F0;
   font-size: 20px;
   padding: 20px; }
 
-#error404 button {
+.btninicio {
   padding: 13px 30px;
   border-radius: 15px;
   border: none;
-  background: #0581f5;
-  color: white; }
+  background: #F961FF;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2rem; }
+
+.agradecimientos {
+  width: 75%;
+  color: #FF49F0;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 @media screen and (max-width: 630px) {
   h1 {
