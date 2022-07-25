@@ -101,8 +101,8 @@ nav {
 .btnXl, .btn-rounded {
   width: 50%;
   height: 30px;
-  background-color: #FFE87E;
-  color: #CB8367;
+  background-color: #87CEEB;
+  color: #000000;
   text-align: center;
   text-decoration: none;
   margin-left: 50px;
@@ -209,10 +209,44 @@ nav {
   line-height: 2.4rem;
   padding: 50px;
   margin: 20px auto;
-  color: white; }
+  color: #FFFFFF; }
 
 #productos .destacados article h3 {
-  color: white;
+  color: #FFFFFF;
   font-size: 3rem;
   padding-left: 50px;
   font-family: Roboto, sans-serif; }
+
+#error404 {
+  background: #081c22;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif; }
+
+#error404 img {
+  width: 50%; }
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center; }
+
+#error404 h1 {
+  color: #e9eef5;
+  font-size: 20px;
+  padding: 20px; }
+
+#error404 button {
+  padding: 13px 30px;
+  border-radius: 15px;
+  border: none;
+  background: #0581f5;
+  color: white; }
+
+@media screen and (max-width: 630px) {
+  h1 {
+    font-size: 16px; } }
