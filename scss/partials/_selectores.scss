@@ -163,11 +163,11 @@
 		line-height: 2.4rem;
 		padding: 50px;
 		margin: 20px auto;
-		color: white;
+		color: map-get($mapaDeColores, $blanco);
 	}
 
 	#productos .destacados article h3{
-		color: white;
+		color: map-get($mapaDeColores, $blanco);
 		font-size: 3rem;
 		padding-left: 50px;
 		font-family: Roboto, sans-serif;
